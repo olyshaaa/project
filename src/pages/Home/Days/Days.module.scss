@@ -78,18 +78,20 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
+
+        .tab{
+            &:active{
+                background: $primary-color;
+                color: #fff;
+            }
+        }
 }
 
 .cancel{
     margin-right: 0;
 }
 
-.tab{
-    &:active{
-        background: $primary-color;
-        color: #fff;
-    }
-}
+
 .tabs__wrapper{
     display: flex;
 }
