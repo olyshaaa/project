@@ -4,7 +4,7 @@
     padding: 40px;
     max-width: 750px;
     width: 100%;
-    background: $lite-background;
+    background: var(#{--components-background-default});
     border-radius: $border-radius;
     box-shadow: $box-shadow;
 }
@@ -43,7 +43,7 @@
     }
 
     .indicator__value{
-        color: $lite-color;
+        color: var(#{--text-color-default});
     }
 }
 
